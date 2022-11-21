@@ -4,14 +4,20 @@ import java.util.Calendar;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class YoilTellerMVC {
+	@ExceptionHandler(Exception.class)
+	public String catcher (Exception ex) {
+		ex.printStackTrace();
+		return "yoilError";
+	}
     @RequestMapping("/getYoilMVC") // http://localhost/ch2/getYoilMVC
-    public String main(int year, int month, int day, Model model) {
- 
+    public String main(@RequestParam(required=true) int year,
+    		@RequestParam(required=true) int month, int day, Model model) {
         // 1. 유효성 검사
     	if(!isValid(year, month, day)) 
     		return "yoilError";  // 유효하지 않으면, /WEB-INF/views/yoilError.jsp로 이동
