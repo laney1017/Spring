@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1eac123-2cc4-4340-bd71-1c76939ba6a4" name="Changes" comment="" />
+    <list default="true" id="e1eac123-2cc4-4340-bd71-1c76939ba6a4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ch2/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch2/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch2/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch2/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch2/webapp/WEB-INF/views/loginForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/webapp/WEB-INF/views/loginForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch2/webapp/WEB-INF/views/registerInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/webapp/WEB-INF/views/registerInfo.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +27,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/kwaky/Documents/dev/spring/spring_github/Spring"
+    "last_opened_file_path": "C:/Users/kwaky/Documents/dev/spring/spring_github/Spring/spring_basic",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -32,8 +42,12 @@
       <option name="presentableId" value="Default" />
       <updated>1668611957096</updated>
       <workItem from="1668611958789" duration="23000" />
+      <workItem from="1669104885836" duration="14000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

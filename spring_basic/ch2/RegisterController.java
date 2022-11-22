@@ -1,15 +1,27 @@
 package com.fastcampus.ch2;
 
 import java.net.URLEncoder;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
+import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.WebDataBinder;
+import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller // ctrl+shift+o 자동 import
 public class RegisterController {
+	
+	@InitBinder
+	public void toDate(WebDataBinder binder) {
+		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+		binder.registerCustomEditor(Date.class, new CustomDateEditor(df, false));
+	}
 	@RequestMapping(value="/register/add", method= {RequestMethod.GET, RequestMethod.POST}) // 신규회원 가입 화면
 	public String register( ) {
 		return "registerForm"; // WEB-INF/views/registerForm.jsp
@@ -18,7 +30,8 @@ public class RegisterController {
 	
 //	@RequestMapping(value="/register/save", method=RequestMethod.POST) // GET방식으로 접근불가
 	@PostMapping("/register/save") // PostMapping POST방식으로만 접근가능 spring 4.3부터 사용가능
-	public String save(User user, Model m) throws Exception{ 
+	public String save(User user, BindingResult result, Model m) throws Exception{ 
+		System.out.println("result="+result);
 		// 1. 유효성 검사
 		if(!isValid(user)) {
 			String msg = URLEncoder.encode("id를 잘못입력하셨습니다.", "utf-8");
@@ -32,6 +45,6 @@ public class RegisterController {
 	}
 
 	private boolean isValid(User user) {
-	return false;
+	return true;
 	}
 }
