@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1eac123-2cc4-4340-bd71-1c76939ba6a4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ch2/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/webapp/WEB-INF/views/loginForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/webapp/WEB-INF/views/loginForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/webapp/WEB-INF/views/registerInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/webapp/WEB-INF/views/registerInfo.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="e1eac123-2cc4-4340-bd71-1c76939ba6a4" name="Changes" comment="revise code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +9,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HdPOAnkjv4kkpwcZl1I0PeNuKU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -27,9 +23,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/kwaky/Documents/dev/spring/spring_github/Spring/spring_basic",
+    "last_opened_file_path": "C:/Users/kwaky/Documents/dev/spring/spring_github/demo",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
@@ -42,8 +38,23 @@
       <option name="presentableId" value="Default" />
       <updated>1668611957096</updated>
       <workItem from="1668611958789" duration="23000" />
-      <workItem from="1669104885836" duration="14000" />
+      <workItem from="1669104885836" duration="142000" />
     </task>
+    <task id="LOCAL-00001" summary="practice spring_basic code">
+      <created>1669104957834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669104957834</updated>
+    </task>
+    <task id="LOCAL-00002" summary="revise code">
+      <created>1669104981242</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669104981242</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -59,5 +70,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="practice spring_basic code" />
+    <MESSAGE value="revise code" />
+    <option name="LAST_COMMIT_MESSAGE" value="revise code" />
   </component>
 </project>
